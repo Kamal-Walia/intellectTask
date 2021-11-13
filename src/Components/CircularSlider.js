@@ -31,6 +31,7 @@ const CircularSlider = ({currentSliderValue, setSliderValue}) => {
           style={{width: 200, height: 40}}
           minimumValue={0}
           maximumValue={10}
+          value={currentSliderValue}
           step={1}
           minimumTrackTintColor="blue"
           maximumTrackTintColor="#white"
