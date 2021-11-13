@@ -21,7 +21,7 @@ const App = () => {
   }
 
   return (
-    <SafeAreaView style={{flex: 1}}>
+    <SafeAreaView style={{flex: 1, backgroundColor:'#9fbfdf'}}>
       <View style={styles.container}>
         <Levels
           currentLevel={currentLevel}
@@ -47,6 +47,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'space-around',
+    backgroundColor: '#9fbfdf'
   },
   resetButton: {
     marginTop: 20,
